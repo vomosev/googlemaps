@@ -1,0 +1,36 @@
+{
+  "name": "google-maps-app",
+  "version": "1.0.0",
+  "description": "An application that displays Google Maps using React and Node.js",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "jsonwebtoken": "^9.0.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.0.0"
+  },
+  "keywords": [
+    "google-maps",
+    "react",
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
